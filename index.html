@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ร้านแฮปปี้ | ขายรหัสเกม</title>
+    <style>
+        body { font-family: 'Sarabun', sans-serif; background: #fdf6e3; color: #333; margin: 0; padding: 20px; }
+        header { background: #ffcc00; padding: 20px; text-align: center; font-size: 32px; font-weight: bold; }
+        .container { max-width: 800px; margin: auto; }
+        .game { background: #fff3cd; border: 1px solid #ffeeba; padding: 15px; margin: 10px 0; border-radius: 10px; }
+        .payment, .contact { background: #d4edda; padding: 10px; border: 1px solid #c3e6cb; margin-top: 20px; border-radius: 8px; }
+        .red-envelope { background: #ff4d4f; color: white; text-align: center; padding: 20px; margin-top: 20px; border-radius: 12px; font-size: 20px; cursor: pointer; }
+    </style>
+    <script>
+        function playSound() {
+            const audio = new Audio("https://cdn.pixabay.com/audio/2022/03/15/audio_80ed016ecf.mp3");
+            audio.play();
+            alert("เฮง ๆ รวย ๆ!");
+        }
+    </script>
+</head>
+<body>
+    <header>ร้านแฮปปี้ | ขายรหัสเกมแท้</header>
+    <div class="container">
+        <div class="game">
+            <h3>🎮 Roblox | 50 บาท</h3>
+            <p>รหัสพร้อมเล่น มี Robux ติดไอดี</p>
+        </div>
+        <div class="game">
+            <h3>🎮 Free Fire | 70 บาท</h3>
+            <p>มีของแรร์ สุ่มเพชร</p>
+        </div>
+
+        <div class="payment">
+            <h4>📌 วิธีชำระเงิน</h4>
+            <p>💸 ธนาคารกสิกรไทย: 1941468000 (ธนากร อุ่นจิต)</p>
+            <p>📱 TrueMoney Wallet: 0624489518 (ธนากร อุ่นจิต)</p>
+        </div>
+
+        <div class="contact">
+            <h4>📞 ติดต่อร้าน</h4>
+            <p>Facebook: <a href="https://www.facebook.com/share/1F2JtoduVK/" target="_blank">ร้านแฮปปี้</a></p>
+            <p>ดูรายการรหัสเกมทั้งหมดได้ที่ <a href="https://docs.google.com/spreadsheets/d/1kGwkYilzEd1xbBqiDxrlf3QZ8e1DAFfVbP8ndycbUGE/edit?usp=drivesdk" target="_blank">Google Sheets</a></p>
+        </div>
+
+        <div class="red-envelope" onclick="playSound()">🧧 เปิดซองอั่งเปา</div>
+    </div>
+</body>
+</html>
